@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Billiards Stock</string>
+    <string name="price_format">$%s</string>
+    <string name="percentage_format">%d%%</string>
+    <string name="log_tag_math_utils">MathUtils</string>
+    <string name="deprecated_calculate_total_income">DEPRECATED: calculateTotalIncome - Use FinancialCalculationService instead</string>
+    <string name="log_calculating_total_supplier_cost">=== CALCULANDO COSTO TOTAL DE PROVEEDOR CORREGIDO ===</string>
+    <string name="log_total_sales_received">Total de ventas recibidas: %d</string>
+    <string name="log_game_sales">Ventas de partidas: %d</string>
+    <string name="log_normal_sales">Ventas normales: %d</string>
+    <string name="log_game_sales_cost_included">Costo de partidas: $%s (ya incluido en ganancias)</string>
+    <string name="log_normal_sales_cost">Costo ventas normales: $%s</string>
+    <string name="log_game_sales_cost">Costo ventas de partidas: $%s</string>
+    <string name="log_total_supplier_cost_corrected">Costo total de proveedor corregido: $%s</string>
+    <string name="log_separator">================================</string>
+    <string name="deprecated_message">Use FinancialCalculationService.calculateTotalIncome instead</string>
+</resources>
