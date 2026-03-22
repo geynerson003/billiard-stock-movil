@@ -95,7 +95,7 @@ class TablesRepositoryImpl @Inject constructor(
         val listener = firestore.collection("businesses").document(userId).collection("tables").addSnapshotListener { snapshot, error ->
             if (error != null) {
                 if (error.code == com.google.firebase.firestore.FirebaseFirestoreException.Code.PERMISSION_DENIED) {
-                    Log.w("TablesRepo", "Permiso denegado en listener de mesas (posible logout)")
+                    Log.w("TablesRepo", "Permiso denegado en listener de mesas (posible logout.)")
                     close()
                 } else {
                     close(error)
